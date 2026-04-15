@@ -1,0 +1,30 @@
+{
+  "name": "ai_agent",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "generate": "drizzle-kit generate",
+    "migrate": "drizzle-kit migrate",
+    "studio": "drizzle-kit studio"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.89.0",
+    "@google/generative-ai": "^0.24.1",
+    "dotenv": "^17.4.2",
+    "drizzle-orm": "^0.45.2",
+    "groq-sdk": "^1.1.2",
+    "openai": "^6.34.0",
+    "pg": "^8.20.0",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "@types/pg": "^8.20.0",
+    "drizzle-kit": "^0.31.10",
+    "tsx": "^4.21.0"
+  }
+}
